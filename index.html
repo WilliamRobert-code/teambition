@@ -9,16 +9,7 @@
 		<title>天津农学院计算机系Test</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-                                <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-                                <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-                                <script>
-                                    new Valine({
-                                                       el: '#vcomments', 
-                                                       appId: 'sB1t476fzu3ck7Cbh3CzTiMQ-gzGzoHsz', 
-                                                       appKey: 'C82NWv7QQ6e5vxgjSEqRcpbi', 
-                                                      });
-                                </script>
+		<link rel="stylesheet" href="assets/css/main.css" />                             
 	</head>
 	<body class="is-preload">
 
@@ -238,6 +229,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+                                                <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+                                                <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+                                                <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                                                <script>
+                                                       new Valine({
+                                                                            av: AV, 
+                                                                            el: '.comment',
+                                                                            emoticon_url: 'https://cloud.panjunwen.com/alu',
+                                                                            emoticon_list: ["狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","暗地观察.png"],
+                                                                           app_id: 'sB1t476fzu3ck7Cbh3CzTiMQ-gzGzoHsz', 
+                                                                           app_key: 'C82NWv7QQ6e5vxgjSEqRcpbi', 
+                                                                           placeholder: '祝你🐎到成功！'
+                                                                        });
+                                               </script>
 
 	</body>
 </html>

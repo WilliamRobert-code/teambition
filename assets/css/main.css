@@ -2875,8 +2875,8 @@ input, select, textarea {
 		}
 
                                #footer .comment{
-                                               color:yellow;
-                                               font-size:30px;
+                                                width:300px;
+                                                height:200px;
                                }
 
 		#footer .copyright {
